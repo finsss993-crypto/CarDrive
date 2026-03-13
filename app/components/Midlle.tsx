@@ -5,7 +5,7 @@ export default function Midlle() {
   return (
     <Wrap>
     <Mid>
-        Машины в вашем городе -
+        Машины в вашем городе - мск
     </Mid>
     </Wrap>
     

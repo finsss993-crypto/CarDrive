@@ -9,12 +9,12 @@ export const Container = styled.div({
 })
 
 export const Logo = styled.div({
-    color:"blue",
+    color:"#62a1a8",
     fontSize:"1.5rem"
 })
 
 export const Navigation = styled.div({
-    color:"grey",
+    color:"#62a1a8",
     display:"flex",
     gap:"50px",
     fontFamily:'boon',

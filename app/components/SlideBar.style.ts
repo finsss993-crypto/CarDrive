@@ -2,8 +2,8 @@ import styled from "styled-components";
 export const Wrap = styled.div({
     
     height: 500,
-    borderRadius: 30,
-    backgroundColor:'gray'  
+    borderRadius: 25,
+    backgroundColor:'#62a1a8'
 })
 
 export const Title = styled.div({
@@ -13,7 +13,7 @@ display: 'flex',
 justifyContent:'center',
 height: 100,
 alignItems: 'center',
-gap: 20
+gap: 20 
 })
 export const Header = styled.div({
 fontSize: '.8rem',
@@ -26,6 +26,8 @@ lignItems: 'center'
 
 
 export const CarList = styled.div({
-
+backgroundColor:'62a1a8',
+borderRadius: 5,
+height:330
 })
 
