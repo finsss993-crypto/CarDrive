@@ -28,6 +28,12 @@ lignItems: 'center'
 export const CarList = styled.div({
 backgroundColor:'62a1a8',
 borderRadius: 5,
-height:330
+height:330,
+gap: 20,
+paddingLeft: 50,
+overflowX: "scroll",
+scrollbarWidth: "none",
+display: "flex",
 })
+
 
