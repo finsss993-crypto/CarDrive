@@ -17,20 +17,51 @@
   src: url('../public/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf');
 }
 
-@media(prefers-color-scheme: dark) {
+:root {
+  --background: #000000;
+  --foreground: #f5f5f5;
+}
+
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: black;
-    --foreground: white;
-  };
+    --background: #000000;
+    --foreground: #f5f5f5;
+  }
+}
+
+html {
+  background: #000000;
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color:var(--foreground);
-  font-family: vadik;
-  padding: 0 15%;
+  background: #000000;
+  color: var(--foreground);
+  font-family: vadik, system-ui, sans-serif;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* контент с боковыми полями — фон Hyperspeed на всю ширину */
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 2.5rem);
 }
 @font-face{
   font-family: 'boon';
   src: url('../public/fonts/RubikMonoOne-Regular.ttf');
+}
+
+/* Ant Design: тёмный выпадающий список в форме */
+.dark-select-dropdown.ant-select-dropdown {
+  background: #141a1c !important;
+  border: 1px solid rgba(98, 161, 168, 0.3);
+}
+.dark-select-dropdown .ant-select-item {
+  color: #e8ecec !important;
+}
+.dark-select-dropdown .ant-select-item-option-active,
+.dark-select-dropdown .ant-select-item-option-selected {
+  background: rgba(98, 161, 168, 0.2) !important;
 }
