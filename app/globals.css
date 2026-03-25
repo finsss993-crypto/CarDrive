@@ -34,3 +34,9 @@ body {
   font-family: 'boon';
   src: url('../public/fonts/RubikMonoOne-Regular.ttf');
 }
+
+.StyleSlider{
+display: flex;
+flex-direction: column;
+gap: 70px;
+}

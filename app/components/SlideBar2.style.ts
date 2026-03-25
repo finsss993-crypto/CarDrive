@@ -3,30 +3,24 @@ export const Wrap = styled.div({
     
     height: 500,
     borderRadius: 25,
-    backgroundColor:'#639ebf'
+    backgroundColor:'#639ebf',
+    
 })
 
 export const Title = styled.div({
-fontSize: '1.5rem',
+fontSize: '.    7rem',
 fontFamily: 'boon',
 display: 'flex',
-justifyContent:'center',
+justifyContent:'space-around',
 height: 100,
-alignItems: 'center',
-gap: 20 
+gap: 20 ,
 })
 export const Header = styled.div({
-fontSize: '.8rem',
-fontFamily: 'boon',
-display: 'flex',
-justifyContent:'center',
-height: 50,
-color: '#045d8f',
-lignItems: 'center'
+
 })
 
 
-export const CarList = styled.div({
+export const CardsList = styled.div({
 backgroundColor:'62a1a8',
 borderRadius: 5,
 height:330,
@@ -34,7 +28,13 @@ gap: 20,
 paddingLeft: 50,
 overflowX: "scroll",
 scrollbarWidth: "none",
-display: "flex",
+display: "flex"
 })
 
+export const Text = styled.div({
+fontSize: '3rem',
+fontFamily: 'boon',
+display: 'flex',
+justifyContent:'center',
+})
 

@@ -20,19 +20,19 @@ const cars = [
     imgUrl: "/assets/cars/audi.png"
   },
   {
-    name: "MERS1",
+    name: "Skoda",
     carClass: "exclusive",
-    imgUrl: "/assets/cars/mers.png",
+    imgUrl: "/assets/cars/skoda.png",
   },
   {
-    name: "BMW2",
+    name: "Haval",
     carClass: "normal",
-    imgUrl: "/assets/cars/mers.png"
+    imgUrl: "/assets/cars/haval.png"
   },
   {
-    name: "MERS2",
+    name: "Honda",
     carClass: "exclusive",
-    imgUrl: "/assets/cars/mers.png"
+    imgUrl: "/assets/cars/honda.png"
   }
     ]
 
@@ -47,12 +47,12 @@ const [carType,setCarType] = useState("passenger");
     <Title>
     <button 
     onClick={() => setCarType("passenger")} 
-    style={{color: carType === "passenger" ? "#18191a" : "#3d3f40" }}
+    style={{color: carType === "passenger" ? "#022d44" : "#0369a4" }}
     >Легковые</button>
         /
     <button 
     onClick={() => setCarType("van")}
-    style={{color: carType === "passenger" ? "#3d3f40" : "#18191a" }}
+    style={{color: carType === "passenger" ? "#0369a4" : "#022d44" }}
     >Фургоны</button>   
     </Title>
     {carType === "passenger" ?
