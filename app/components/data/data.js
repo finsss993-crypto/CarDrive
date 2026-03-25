@@ -1,20 +1,16 @@
-const arr1 =[{
-    key:'123',
+export const arr0 =[{
     imgUrl:'',
     text:'Парковаться нужно на городских парковках это бесплатно'
 }]
-const arr2 =[{
-    key:'132',
+export const arr1 =[{
     imgUrl:'',
     text:'Только правильная парковка'
 }]
-const arr3=[{
-    key:'122',
+export const arr2=[{
     imgUrl:'',
     text:'За шлагбаум нельзя'
 }]
-const arr4=[{
-    key:'133',
+export const arr3=[{
     imgUrl:'',
     text:'Карта в приложении'
 }]
